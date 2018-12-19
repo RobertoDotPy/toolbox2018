@@ -1,0 +1,52 @@
+@media (min-width: 600px) {
+    .flexwrapper {
+        flex-flow: row wrap;
+        height: 97vh;
+    } 
+.flexwrapper{
+    background-color: indigo;
+    display: flex;
+    flex-direction: row;
+}
+.flexItems{
+    display: flex;
+    align-items: center;
+    min-height: 6.25rem;
+    padding: 1rem;
+}
+header{
+    background-color: green;
+    order:1;
+    width: 100%;
+}
+.foco{
+    background-color: yellow;
+    order:3;
+    width: 100%;
+}
+.links{
+    background-color: blue;
+    order:6;
+    width: 200px;
+}
+.ultimas{
+    background-color: red;
+    order:4;
+    flex: 2;
+}
+.agenda{
+    background-color: lightcoral;
+    order:5;
+    flex: 1;
+}
+nav{
+    background-color: lightblue;
+    order:2;
+    width: 100%;
+}
+footer{
+    background-color: greenyellow;
+    order:7;
+    width: 100%;
+}
+}
